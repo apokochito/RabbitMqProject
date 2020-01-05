@@ -21,6 +21,6 @@ public class Recv {
             System.out.println(" [x] Received '" + message + "'");
         };
         channel.basicConsume(QUEUE_NAME, true, deliverCallback, consumerTag -> { });
-        
+
     }
 }
