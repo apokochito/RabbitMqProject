@@ -21,4 +21,10 @@
         - $ java -cp .:amqp-client-5.8.0.jar:slf4j-api-2.0.0-alpha1.jar:slf4j-simple-2.0.0-alpha1.jar Recv (Consumer)
         - $ java -cp .:amqp-client-5.8.0.jar:slf4j-api-2.0.0-alpha1.jar:slf4j-simple-2.0.0-alpha1.jar Send (Producer)
         
-2. Work Queues with RabbitMQ (**workqueues branch**)
+2. Work Queues with RabbitMQ (**workQueues branch**)
+
+    ""
+    https://www.rabbitmq.com/tutorials/tutorial-two-java.html
+
+    - Steps
+      - Use application of helloWorld branch
